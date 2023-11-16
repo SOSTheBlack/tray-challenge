@@ -1,0 +1,31 @@
+{
+    "name": "tray/hub",
+    "description": "",
+    "authors": [
+        {
+            "name": "Jean C. Garcia",
+            "email": "jean.garcia@tray.net.br"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Hub\\": "",
+            "Modules\\Hub\\App\\": "App/",
+            "Modules\\Hub\\Database\\Factories\\": "database/factories/",
+            "Modules\\Hub\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Hub\\Tests\\": "tests/"
+        }
+    }
+}

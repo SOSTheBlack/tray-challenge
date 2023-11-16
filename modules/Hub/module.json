@@ -1,0 +1,15 @@
+{
+    "name": "Hub",
+    "alias": "hub",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Hub\\App\\Providers\\HubServiceProvider",
+        "Modules\\Hub\\App\\Providers\\RepositoryServiceProvider",
+        "Modules\\Hub\\App\\Providers\\EventServiceProvider",
+        "Modules\\Hub\\App\\Providers\\ServicesServiceProvider",
+        "Modules\\Hub\\App\\Providers\\ObserverServiceProvider"
+    ],
+    "files": []
+}
